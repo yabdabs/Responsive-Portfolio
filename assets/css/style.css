@@ -1,0 +1,318 @@
+body{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: #E5E5E6	;/*#ededed*/;
+}
+
+.main{
+	padding-bottom:120px;
+}
+nav{
+	border-bottom: 2px solid #cccccc;
+	height: 50px;
+	background-color: white;
+}
+
+.name-box{
+	width: 200px;
+	height: 100%;
+	background-color: #4aaaa5;
+	margin-right: 0;
+	margin-bottom:0;
+	margin-left: 80px;
+	float: left;
+	line-height:40px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.name-box h1{
+	color: white;
+	text-align: center;
+	margin-top: 0px;
+	padding-bottom: 0px;
+}
+
+.nav-three{
+	float: right;
+	margin-right:80px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+.nav-three a {
+	text-decoration: none;
+	/*padding-right: 50px;*/
+	color:#777777;
+	margin: 0 25px;
+}	
+
+.nav-three a:hover { 
+    color: black;
+}
+
+
+.about{
+	width: 50%;
+	background-color: white;/*#ffffff;*/
+	display: inline-block;
+	margin-left: 80px;
+	margin-top: 25px;
+	padding-bottom: 20px;
+}
+
+.portfolio{
+	width:50%;
+	background-color: white;/*#ffffff;*/
+	display: inline-block;
+	margin-left: 80px;
+	margin-top: 25px;
+	/*padding-bottom:px;*/
+
+}
+
+.about-title{
+	width: 90%;
+	height: 50px;
+	border-bottom: 1px solid #777777;
+	margin: 0 auto 0 auto;
+	color: #4aaaa5;
+}
+
+.about-text{
+	font-family: Helvetica, 'Helvetica Neue', 'Arial', sans-serif;
+	font-size: 16px;
+	color:#777777;
+	line-height: 2;
+	margin: 20px 10px 0px 20px;
+}
+
+
+.about img{
+	padding-right: 15px;
+}
+
+.connect{
+	float: right;
+	width: 29.5%;
+	background-color: white;
+	margin-top: 25px;
+	margin-right:80px;
+}
+
+.connect-title{
+	color: #4aaaa5;
+	text-align: center;
+	border-bottom: 1px solid #777777;
+	margin: 0 20px 0 20px;
+}
+.connect-images{
+	text-align: center;
+	margin-top: 10px;
+	padding-bottom: 15px;
+}
+.connect-images a{
+	text-decoration: none;
+}
+
+.github2{
+	height: 55px;
+	width: 55px;
+	margin-right: 10px;
+}
+
+.linkedIn{
+	height: 55px;
+	width: 55px;
+	margin-right: 10px;
+}
+
+.stackoverflow2{
+	height: 55px;
+	width: 55px;
+	/*margin-top: 10px;*/
+	/*position: relative;
+	top: 6px;*/
+}
+
+.connect-images{
+	text-align: center;
+}
+
+.footer-bottom{
+	position: fixed;
+	bottom:0;
+	background: #666666;
+	border-top: 5px solid #4aaaa5;
+	width: 100%;
+	height: 60px;
+	color: white;
+	text-align: center;
+}
+
+
+.form{
+	display: block;
+}
+
+form{
+	margin-top: 15px;
+	margin-left: 30px;
+	color:#777777;
+}
+
+input[type=text]{
+	width: 90%;
+	margin-bottom: 10px;
+
+}
+
+textarea{
+	width: 90%;
+	height: 50%;
+}
+
+.box{
+	width: 36%;
+	height: 125px;
+	background-color: grey;
+	display: inline-block;
+	margin: 20px 25px 20px 25px;
+	float:left;
+}
+
+
+.projects{
+	text-align: center;
+	margin-left: 45px;
+}
+
+.projectTitle{
+	height: 35px;
+	width: 100%;
+	position: relative;
+	top:  60px;
+	background-color: #4aaaa5;
+	color: white;
+
+}
+
+.me{
+	width: 30%;
+	height: 20%;
+}
+
+.about img{
+	display: inline;
+	float: left;
+}
+.about p{
+	display: inline;
+}
+
+
+.submit{
+	color: white;
+	background-color: #4aaaa5;
+	height: 32px;
+	width: 80px;
+	border: none;
+}
+
+@media screen and (max-width: 961px){
+	.portfolio{
+		width:45%;
+	}
+
+	.box{
+		width: 80%;
+		margin: 10px auto;
+	}
+
+	.about{
+		width: 45%;
+	}
+
+	.me{
+		width: 85%;
+		display: block;
+		margin-left: 20px;
+		height: 10%;
+	}
+}
+
+@media screen and (max-width: 748px){
+	.portfolio{
+			width: 95%;
+			margin-left: 20px;
+	}
+
+	.box{
+		display:block;
+		width: 40%;
+		margin: 20px 15px 20px 15px;
+		/*margin: 10px auto;*/
+	}
+
+	.connect{
+		width: 95%;
+		margin-right: 17px;
+		}
+
+	nav .name-box{
+		margin-left: 20px;
+	}
+
+	.nav-three{
+		margin-right:20px;
+	}
+
+	.about{
+		width: 95%;
+		margin-left: 20px;
+	}
+
+	.me{
+		width:45%;
+		height: 5%;
+	}
+}
+
+@media screen and (max-width: 625px){
+	.portfolio{
+			width: 90%;
+			/*margin: 0 auto;*/
+			float: none;
+	}
+
+	.box{
+		display:block;
+		width: 70%;
+		/*margin-right: auto;
+		margin-left: auto*/;
+	}
+
+	.connect{
+		width: 95%;
+		margin: 0 auto 0 auto;
+		float: none;
+	}
+
+	nav .name-box{
+			width: 100%;
+			margin-left: 0px;
+		}
+
+	.nav-three a{
+		margin-left:0px;
+	}
+
+	.nav-three{
+		text-align: center;
+	}
+
+	.me{
+		width:90%;
+		height: 5%;
+	}
+}
